@@ -555,6 +555,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-left: 80px;
 }
 
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
 .block {
   display: block;
 }
@@ -593,6 +597,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .h-4 {
   height: 1rem;
+}
+
+.h-\[1px\] {
+  height: 1px;
+}
+
+.h-\[2px\] {
+  height: 2px;
 }
 
 .w-screen {
@@ -683,6 +695,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-width: 1px;
 }
 
+.border-b {
+  border-bottom-width: 1px;
+}
+
 .border-white {
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
@@ -730,6 +746,49 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .bg-\[\#53555D50\] {
   background-color: #53555D50;
+}
+
+.bg-\[\#202020\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(32 32 32 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#999999\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(153 153 153 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#666666\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(102 102 102 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#444444\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(68 68 68 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#112B3C\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(17 43 60 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#0A122240\] {
+  background-color: #0A122240;
+}
+
+.bg-\[\#0A122290\] {
+  background-color: #0A122290;
+}
+
+.bg-\[\#06113C\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(6 17 60 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#00092C\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 9 44 / var(--tw-bg-opacity));
 }
 
 .p-2 {
@@ -792,6 +851,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .py-\[12px\] {
   padding-top: 12px;
   padding-bottom: 12px;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .pr-4 {
