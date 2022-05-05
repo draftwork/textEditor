@@ -559,6 +559,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 0.5rem;
 }
 
+.ml-\[20px\] {
+  margin-left: 20px;
+}
+
+.ml-\[10px\] {
+  margin-left: 10px;
+}
+
 .block {
   display: block;
 }
@@ -956,6 +964,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 1024px) {
+  .lg\:ml-\[20px\] {
+    margin-left: 20px;
+  }
+
   .lg\:block {
     display: block;
   }
