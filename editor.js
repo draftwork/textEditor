@@ -16,7 +16,7 @@ window.onload = function() {
 </body>
 </html>`);
     htmlEditor.setOptions({
-    fontSize: "14px",
+    fontSize: "16px",
     enableBasicAutocompletion: true,
     enableLiveAutocompletion: true,
     });

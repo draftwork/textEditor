@@ -2,3 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+
+#html{
+    display: block;
+    color: #D6D64D;
+}
+#css{
+    display: none;
+    color: #fff;
+}
+#js{
+    display: none;
+    color: #fff;
+}
